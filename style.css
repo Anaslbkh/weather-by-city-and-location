@@ -1,0 +1,163 @@
+*{
+    font-family: "Rimouski";
+}
+
+body{
+    background-color: #293251;
+}
+li{
+    cursor: pointer;
+}
+.searchByName h1{
+    color: white;
+}
+.container{
+    width: 300px;    
+    background-color: #FFF;
+    
+    display: block;
+    margin: 40px auto;
+    
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+.app-title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #293251;
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+    width: 300px;
+    height: 260px;
+    background-color: #F4F9FF;
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 300px;
+    height:60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature-value p:hover{
+    
+}
+
+.temperature-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.temperature-description{
+    
+}
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location{
+    
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+
+/*search by city*/
+.searchByName h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Rimouski";
+    letter-spacing: 2px;
+    padding: 20px;
+    font-size: 42px;
+    box-sizing: border-box;
+}
+.searchByName input{
+    width: 30%;
+    height: 60px;
+    margin: 0 35%;
+    border-radius: 20px;
+    padding:0 20px;
+    border: none;
+    outline: none;
+    font-family: "Rimouski";
+    font-size: 20px;
+}
+.searchRes{
+    position: relative;
+}
+.searchRes ul{
+    text-align: center;
+    font-size: 24px;
+    background: #fff;
+    width: 33%;
+    list-style: none;
+    margin: 0 0px 40px 35%;
+    border-radius: 20px;
+    border: 0;
+    padding: 0;
+}
+.searchRes ul li{
+    position: relative;
+    padding: 15px 0;
+    border-bottom: 1px solid grey;
+}
+.searchRes ul li span{
+    margin-left: 10px;
+    color: grey;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: monospace;
+}
